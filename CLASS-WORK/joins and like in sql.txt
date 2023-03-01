@@ -20,7 +20,7 @@ SELECT * FROM product WHERE prd_name LIKE '_h%'
 
 SELECT * FROM product WHERE prd_name LIKE '__i%'
 
-SELECT * FROM product WHERE prd_name LIKE 'D%s'
+	
 
 
 
