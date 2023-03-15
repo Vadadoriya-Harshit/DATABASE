@@ -10,15 +10,15 @@ SELECT * FROM product WHERE prd_price>=2000
 
 LIKE
 
-SELECT * FROM product WHERE prd_name LIKE 'D%'
+SELECT * FROM product WHERE prd_name LIKE 'D%'->first letter D
 
-SELECT * FROM product WHERE prd_name LIKE '%s'
+SELECT * FROM product WHERE prd_name LIKE '%s'->last letter 
 
-SELECT * FROM product WHERE prd_name LIKE '%r%'
+SELECT * FROM product WHERE prd_name LIKE '%r%'->random letter
 
-SELECT * FROM product WHERE prd_name LIKE '_h%'
+SELECT * FROM product WHERE prd_name LIKE '_h%'->second letter
 
-SELECT * FROM product WHERE prd_name LIKE '__i%'
+SELECT * FROM product WHERE prd_name LIKE '__i%'->third letter
 
 	
 
