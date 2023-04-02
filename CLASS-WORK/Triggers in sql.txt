@@ -17,9 +17,7 @@ CREATE TABLE candidates
     c_id int(200),
     c_name varchar(200),
     c_mobile varchar(200)
-    
-    
-    
+  
 )
 
 
@@ -30,8 +28,6 @@ CREATE TABLE test
     mobile varchar(200),
     date_time timestamp,
     action_performed varchar(200)
-    
-    
     
 )
 
